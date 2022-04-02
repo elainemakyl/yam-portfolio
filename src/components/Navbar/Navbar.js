@@ -1,15 +1,15 @@
-import React from 'react';
-import { NavLogo, NavWrapper, NavDarkModeToogleButton } from './Navbar.styles';
-import DarkModeTwoToneIcon from '@mui/icons-material/DarkModeTwoTone';
+import React from 'react'
+import { NavLogo, NavWrapper, NavDarkModeToogleButton, ColorTextSpan } from './Navbar.styles'
+import DarkModeIcon from '@mui/icons-material/DarkMode'
 
-export default function Navbar() {
-
-    return (
+export default function Navbar () {
+  return (
         <NavWrapper>
-            <NavLogo>elainemakyl</NavLogo>
-            <NavDarkModeToogleButton><DarkModeTwoToneIcon /></NavDarkModeToogleButton>
-
+            <NavLogo>{'elainemakyl '}
+                <ColorTextSpan color="ff2e36">.</ColorTextSpan></NavLogo>
+            <NavDarkModeToogleButton>
+              <DarkModeIcon />
+            </NavDarkModeToogleButton>
         </NavWrapper>
-    )
-
+  )
 }
