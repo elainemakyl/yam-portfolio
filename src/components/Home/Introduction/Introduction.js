@@ -1,5 +1,5 @@
-import React from 'react'
-import { IntroductionWrapper, Name, Greetings, WaveWrapper } from './Introduction.styles'
+import React from 'react';
+import { IntroductionWrapper, Name, Greetings, WaveWrapper } from './Introduction.styles';
 
 function Introduction () {
   return (
@@ -8,7 +8,7 @@ function Introduction () {
         <Name>Elaine Mak <WaveWrapper>👋👽</WaveWrapper></Name>
         <Greetings>Software Engineer</Greetings>
       </IntroductionWrapper>
-  )
+  );
 }
 
-export default Introduction
+export default Introduction;

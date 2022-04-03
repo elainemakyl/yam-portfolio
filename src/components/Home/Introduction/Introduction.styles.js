@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from 'styled-components';
 
 const shakingHand = keyframes`
   0% {
@@ -32,7 +32,8 @@ const shakingHand = keyframes`
   100% {
     transform: rotate(0);
   }
-`
+`;
+
 export const IntroductionWrapper = styled.div`
   padding: 0rem 1rem 14rem;
   
@@ -40,7 +41,14 @@ export const IntroductionWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-`
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  ),
+  radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+  background-size: 40px 40px;
+`;
+
 export const Name = styled.h2`
   border: 2px solid;
   padding: 2rem 3rem;
@@ -51,16 +59,17 @@ export const Name = styled.h2`
 
   margin: 0 auto;
 
-`
+`;
+
 export const Greetings = styled.p`
   font-family: "Zilla Slab", Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin: 1rem 0;
-`
+`;
 
 export const WaveWrapper = styled.span`
   animation: ${shakingHand} 2.5s infinite;
   transform-orgin: 70% 70%;
   display: inline-block;
   webkit-animation:  ${shakingHand} 2.5s  infinite;
-`
+`;

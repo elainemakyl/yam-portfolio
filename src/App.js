@@ -1,14 +1,20 @@
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import Introduction from './components/Navbar/Introduction/Introduction'
-function App() {
+import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Introduction from './components/Home/Introduction/Introduction';
+import Home from './components/Home/Home';
+import About from './components/Home/About/About';
+
+function App () {
   return (
     <div className="App">
       <Navbar />
-      <Introduction />
-
+      <Home>
+        <Introduction />
+        <About/>
+      </Home>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
