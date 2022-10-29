@@ -58,13 +58,21 @@ export const Name = styled.h2`
   font-family: "Zilla Slab", Arial, Helvetica, sans-serif;
 
   margin: 0 auto;
+  text-align: center;
 
+  @media screen and (max-width: 800px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Greetings = styled.p`
   font-family: "Zilla Slab", Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin: 1rem 0;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const WaveWrapper = styled.span`

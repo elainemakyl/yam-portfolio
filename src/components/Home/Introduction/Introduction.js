@@ -5,7 +5,7 @@ function Introduction () {
   return (
       <IntroductionWrapper>
         <Greetings>{"Hi, I'm"}</Greetings>
-        <Name>Elaine Mak <WaveWrapper>👋👽</WaveWrapper></Name>
+        <Name>Elaine Mak <WaveWrapper>👋👩‍💻</WaveWrapper></Name>
         <Greetings>Software Engineer</Greetings>
       </IntroductionWrapper>
   );

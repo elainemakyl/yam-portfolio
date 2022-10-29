@@ -10,6 +10,7 @@ export const NavWrapper = styled.div`
     position: sticky;
     top: 0px;
     backdrop-filter: blur(12px);
+    z-index: 999;
 `;
 
 export const NavLogo = styled.h1`

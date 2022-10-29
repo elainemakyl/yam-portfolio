@@ -10,4 +10,15 @@
   pointer-events: none;
 }
 
+@media screen and (max-width: 800px) {
+  .App {
+    padding: 0 24px;
+  }
+} 
+@media screen and (max-width: 400px) {
+  .App {
+    padding: 0 12px;
+  }
+} 
+
  
